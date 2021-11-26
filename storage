@@ -1,0 +1,27 @@
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  <!-- Fixed Navbar -->
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><h2>𝕃ℕ</h2><span><h2>Lilitha Ngele</h2></span></a>
+        <!-- Collapsible Menu -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class=" navbar-nav">
+            <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+            <li><a class="scroll" href="#about">About Me</a></li>
+            <li><a class="scroll" href="#experience">Experience</a></li>
+            <li><a class="scroll" href="#portfolio">Skills</a></li>
+            <li><a class="scroll" href="#portfolio">Project</a></li>
+            <li><a class="scroll" href="#portfolio">Testimoials</a></li>
+            <li><button class="btn td-btn small outline pink" data-toggle="modal" data-target="#contactModal">Contact</button></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
