@@ -15,15 +15,15 @@ body {
   line-height: 1.5;
 }
 h1 {
-  font-family: 'Unica One', cursive;
+  /* font-family: 'Unica One', cursive; */
   font-size: 3rem;
 }
 h2 {
-  font-family: 'Unica One', cursive;
+  /* font-family: 'Unica One', cursive; */
   font-size: 2.3rem;
 }
 h3 {
-  font-family: 'Unica One', cursive;
+  /* font-family: 'Unica One', cursive; */
   font-size: 1.8rem;
 }
 h4 {
@@ -75,7 +75,7 @@ a:hover {
 }
 .navbar-brand,
 .navbar-nav > li > a {
-  font-family: 'Unica One', cursive;
+  /* font-family: 'Unica One', cursive; */
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -636,7 +636,7 @@ h1.header {
 }
 
 .timeline .event:after {
-  box-shadow: 0 0 0 8px #42A5F5;
+  box-shadow: 0 0 0 8px rgb(247, 159, 174);
   left: -30px;
   background: #212121;
   border-radius: 50%;
@@ -759,14 +759,14 @@ color:#d58521;
   background-color: #ecf9ff;
 } */
 
-/* body {
+ body {
   color: #272727;
-  font-family: 'Quicksand', serif;
+   font-family: 'Quicksand', serif; 
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
   padding: 1rem;
-} */
+} 
 
 .main{
   max-width: 1200px;
