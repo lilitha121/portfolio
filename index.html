@@ -300,36 +300,41 @@
         <div class="col-xs-12">
           <!-- Contact Modal -->
     <div  id="contactModal"  >
-        <form action="https://formspree.io/f/mnqlybrq "method="POST">
         <div class="modal-content bg-pink">
           <div class="modal-header">
             <h1 class="mb-30">Contact me</h1>
           </div><!-- /.modal-header -->
           <div class="modal-body">
-            <form class="mb-15">
+            <form action="https://formsubmit.co/ngelelilitha18@gmail.com"
+
+            method="POST" class="mb-15">
+
+           
               <div class="form-group">
-                <label class="sr-only gray" for="name">Name</label>
+                <label class="sr-only gray" for="name" name="name" >Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Your Name" required>
               </div>
               <div class="form-group">
-                <label class="sr-only gray" for="email">Email</label>
+                <label class="sr-only gray" for="email" name="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="Your Email" required>
               </div>
               <div class="form-group">
-                <label class="sr-only gray" for="subject">Subject</label>
+                <label class="sr-only gray" for="subject" name="subject">Subject</label>
                 <input type="text" class="form-control" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group">
-                <label class="sr-only" for="message">Message</label>
-                <textarea class="form-control" id="message" rows="6" placeholder="Your message here..." required></textarea>
+                <label class="sr-only" for="message"name="message">Message</label>
+                <input class="form-control"  type="text" id="message" rows="6" placeholder="Your message here..." required>
               </div>
-              </form>
               <small>*All fields are required</small>
               
-            </form>
+           
+
             <div class="modal-footer">
-              <button type="submit" class="btn td-btn outline small white">Send Message</button>
-            </div><!-- /.modal-footer -->
+              <button type="submit" name="portfolio" class="btn td-btn outline small white">Send Message</button>
+       </div><!-- /.modal-footer -->
+</form>
+
           </div><!-- /.modal-body -->
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
