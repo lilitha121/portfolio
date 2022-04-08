@@ -9,25 +9,25 @@ html, body {
 }
 body {
   background-color: transparent;
-  font-family: 'Work Sans', helvetica, sans-serif;
+  font-family: 'Unica One', cursive;
+  /* font-family: 'Work Sans', helvetica, sans-serif; */
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
 }
 h1 {
-  font-family: 'Work Sans', helvetica, sans-serif;
 
   /* font-family: 'Unica One', cursive; */
   font-size: 3rem;
 }
 h2 {
-  font-family: 'Work Sans', helvetica, sans-serif;
+  /* font-family: 'Work Sans', helvetica, sans-serif; */
 
   /* font-family: 'Unica One', cursive; */
   font-size: 2.3rem;
 }
 h3 {
-  font-family: 'Work Sans', helvetica, sans-serif;
+  /* font-family: 'Work Sans', helvetica, sans-serif; */
 
   /* font-family: 'Unica One', cursive; */
   font-size: 1.8rem;
@@ -767,14 +767,6 @@ color:#d58521;
   background-color: #ecf9ff;
 } */
 
- body {
-  color: #272727;
-   font-family: 'Quicksand', serif; 
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-} 
 
 .main{
   max-width: 1200px;
